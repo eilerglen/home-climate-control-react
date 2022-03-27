@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/home-climate-control-react/static/css/main.52a85a23.css",
+    "main.js": "/home-climate-control-react/static/js/main.6742211a.js",
+    "static/js/787.067892e6.chunk.js": "/home-climate-control-react/static/js/787.067892e6.chunk.js",
+    "static/media/icon_plus.svg": "/home-climate-control-react/static/media/icon_plus.d8d25bff83c8e1ecd17d.svg",
+    "static/media/fan.svg": "/home-climate-control-react/static/media/fan.ee6018f103e33fce5972.svg",
+    "static/media/icon_minus.svg": "/home-climate-control-react/static/media/icon_minus.bb4cb8ea683a81ad7ba1.svg",
+    "static/media/thermometer.svg": "/home-climate-control-react/static/media/thermometer.91d31aeefe7d997002ca.svg",
+    "index.html": "/home-climate-control-react/index.html",
+    "static/media/power_on.svg": "/home-climate-control-react/static/media/power_on.6c13b765a4e1defbcb2b.svg",
+    "static/media/power_off.svg": "/home-climate-control-react/static/media/power_off.f4ca44e6ff7c2ac1f2ec.svg",
+    "static/media/drop.svg": "/home-climate-control-react/static/media/drop.7fbad095b4ebf4fbe0d0.svg",
+    "static/media/markers.svg": "/home-climate-control-react/static/media/markers.ba2a764f8c930cfcf61b.svg",
+    "main.52a85a23.css.map": "/home-climate-control-react/static/css/main.52a85a23.css.map",
+    "main.6742211a.js.map": "/home-climate-control-react/static/js/main.6742211a.js.map",
+    "787.067892e6.chunk.js.map": "/home-climate-control-react/static/js/787.067892e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52a85a23.css",
+    "static/js/main.6742211a.js"
+  ]
+}
