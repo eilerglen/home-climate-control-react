@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('../images/markers.svg') center no-repeat;
+  background: url('../../images/markers.svg') center no-repeat;
   background-size: contain;
 }
 
@@ -61,12 +61,12 @@
 }
 
 .buttonTemperatureMinus {
-  background: url('../images/icon_minus.svg') center no-repeat;
+  background: url('../../images/icon_minus.svg') center no-repeat;
   background-size: contain;
 }
 
 .buttonTemperaturePlus {
-  background: url('../images/icon_plus.svg') center no-repeat;
+  background: url('../../images/icon_plus.svg') center no-repeat;
   background-size: contain;
 }
 
@@ -75,7 +75,7 @@
   height: 50px;
   margin-bottom: 18px;
   display: block;
-  background: url('../images/thermometer.svg') center no-repeat;
+  background: url('../../images/thermometer.svg') center no-repeat;
   background-size: contain;
 }
 
