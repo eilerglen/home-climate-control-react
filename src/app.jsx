@@ -1,5 +1,6 @@
 import React from 'react';
-import {FlowControl} from './components/flow/flowControl'
+import {FlowControl, FLOW_OPTIONS} from './components/flow/flowControl';
+import { SwitchControl } from './components/switchControl/switchControl';
 import styles from './app.module.css';
 
 export default class App extends React.Component {
@@ -43,8 +44,22 @@ export default class App extends React.Component {
           <h1 className={styles.title}>Hall</h1>
           <div className={styles.card}>
             <div className={styles.column}>
-
+              <SwitchControl enabled={enabled} onClick={this.handlePowerSwitch}/>
             </div>
+            <span className={styles.iconFan}></span>
+            <label>
+              Скорость обдува
+              <div className={styles.fanRow}>
+                {FLOW_OPTIONS.map(elem => {
+                  <FlowControl
+                    key={`flow_elem${elem}`}
+                    flow = {elem}
+                    selectedFlow = {this.state.flow}
+                    onClick={this.handleFlowSelect}
+                  />
+                })}
+              </div>
+            </label>
           </div>
         </div>
       </div>
